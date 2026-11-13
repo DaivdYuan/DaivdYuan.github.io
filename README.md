@@ -16,11 +16,13 @@ Run `npm ci` once, then `npm run dev` for the Cloudflare-compatible local previe
 
 ## GitHub Pages
 
-The academic homepage is published at https://daivdyuan.github.io/ from the `academic-pages` branch of `DaivdYuan/DaivdYuan.github.io`, using `/docs` as the Pages source. The older blog remains preserved on `master`.
+The academic homepage is published at https://davidyuan.space/ from the `academic-pages` branch of `DaivdYuan/DaivdYuan.github.io`, using `/docs` as the Pages source. GitHub Pages redirects the original https://daivdyuan.github.io/ address and the `www` domain to this primary domain. The older blog remains preserved on `master`.
 
 Edit `public/`, then run `npm run build:github` and commit both the edited source and generated `docs/` to `academic-pages`. GitHub Pages republishes that folder automatically. Only `docs/` is served; source files, development tooling, and template provenance are outside the web root. Building needs only Node.js; installing the development dependencies is only necessary for the Wrangler preview or Cloudflare commands.
 
-`docs/.nojekyll` keeps the deployment as plain static files. The build adds the GitHub Pages canonical URL, sitemap, a 404 page, and a simple `/research/` redirect. GitHub Pages does not support Cloudflare's custom headers or redirects, so its package omits those files. The registered custom domain has not been configured; `site.config.json` currently identifies the GitHub Pages URL.
+`docs/.nojekyll` keeps the deployment as plain static files. The build adds the canonical URL from `site.config.json`, sitemap, a 404 page, and a simple `/research/` redirect. `public/CNAME` is copied into `docs/CNAME` on every build so the custom domain survives future deployments. GitHub Pages does not support Cloudflare's custom headers or redirects, so its package omits those files.
+
+GoDaddy hosts DNS for `davidyuan.space`. The apex A records point to GitHub Pages (`185.199.108.153`, `185.199.109.153`, `185.199.110.153`, and `185.199.111.153`), and `www` is a CNAME to `daivdyuan.github.io`. Retain the GitHub ownership-verification TXT record and existing email-related DNS records when making future changes.
 
 The initial publishing snapshot excludes local Sites identity, credentials, dependencies, and runtime state. Future content changes should be made on `academic-pages`, not on the archived blog branch.
 
