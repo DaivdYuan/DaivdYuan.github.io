@@ -10,9 +10,9 @@
     <meta property="og:description" content="Robot learning research, publications, projects, and academic news.">
     <meta property="og:type" content="website">
     <!-- SITE_METADATA -->
-    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="favicon.svg?v=2" type="image/svg+xml">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    <link rel="stylesheet" type="text/css" href="research.css">
+    <link rel="stylesheet" type="text/css" href="research.css?v=2">
   </head>
   <body>
     <a class="skip" href="#about">Skip to content</a>
@@ -25,7 +25,7 @@
             <tr style="padding:0px">
               <td class="intro-copy" style="padding:2.5%;width:63%;vertical-align:middle">
                 <h1 class="name" style="text-align:center">David D. Yuan</h1>
-                <p>I’m a robotics researcher at Stanford University and a cofounder of <a href="https://intbot.ai/">IntBot</a>.</p>
+                <p>I’m a robotics researcher at <strong>Stanford University</strong> and a cofounder of <a href="https://intbot.ai/"><strong>IntBot</strong></a>.</p>
                 <p>I work on <strong>robot learning</strong>, studying how robots acquire physical skills and improve them through experience. My research centers on how robots can reason about the physical world and adapt what they learn to new tasks and environments. I’m also interested in how humanoids coordinate movement and manipulation, and how people can teach and work with robots.</p>
                 <p class="profile-links" style="text-align:center">
                   <a href="mailto:davidy02@stanford.edu">Email</a> &nbsp;/&nbsp;
@@ -52,20 +52,22 @@
             <div class="section-copy">
               <h2 id="research-title">Research</h2>
             </div>
-            <table role="presentation" class="publications" style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <table role="presentation" class="publications"><tbody>
             <tr class="publication" id="openwam">
-              <td class="paper-image" style="padding:16px;width:20%;vertical-align:middle">
+              <td class="paper-image">
                 <a href="https://openwam.stanford.edu/" tabindex="-1" aria-hidden="true"><img src="assets/openwam.jpg" alt="An OpenWAM robot lifting bread during a manipulation task" width="160" height="120" loading="lazy"></a>
               </td>
-              <td class="paper-copy" style="padding:8px;width:80%;vertical-align:middle">
+              <td class="paper-copy">
                 <h3 class="papertitle"><a href="https://arxiv.org/abs/2610.07922">OpenWAM: An Open Framework for Composable World-Action Models</a></h3>
-                Heng Yu*, <strong>David D. Yuan*</strong>, Juze Zhang*, Changan Chen, Yao Feng, Michelle Baldonado, Steve Cousins, Li Fei-Fei, Jiajun Wu, Ehsan Adeli<br>
-                <em>In submission</em><br>
-                CoRL 2026 Workshop: <a href="https://do-robots-need-world-models.github.io/">Do Robots Need World Models?</a><br>
-                <strong class="paper-award">Best Position Paper</strong><br>
-                <a href="https://openwam.stanford.edu/">project page</a> / <a href="https://arxiv.org/abs/2610.07922">paper</a> / <a href="https://github.com/OpenWAM/OpenWAM">code</a>
-                <p>A shared video foundation for studying how prediction, action generation, and reusable dynamics models work together.</p>
-                <details><summary>BibTeX<span class="sr-only"> for OpenWAM: An Open Framework for Composable World-Action Models</span></summary><pre>@article{yu2026openwam,
+                <p class="paper-authors">Heng Yu*, <strong>David D. Yuan*</strong>, Juze Zhang*, Changan Chen, Yao Feng, Michelle Baldonado, Steve Cousins, Li Fei-Fei, Jiajun Wu, Ehsan Adeli</p>
+                <div class="paper-meta">
+                  <p class="paper-status"><em>In submission</em></p>
+                  <p class="paper-venue">CoRL 2026 Workshop: <a href="https://do-robots-need-world-models.github.io/">Do Robots Need World Models?</a></p>
+                </div>
+                <p class="paper-honor"><strong class="paper-award">Best Position Paper</strong></p>
+                <p class="paper-description">A shared video foundation for studying how prediction, action generation, and reusable dynamics models work together.</p>
+                <p class="paper-links"><a href="https://openwam.stanford.edu/">project page</a> <a href="https://arxiv.org/abs/2610.07922">paper</a> <a href="https://github.com/OpenWAM/OpenWAM">code</a></p>
+<details><summary>BibTeX<span class="sr-only"> for OpenWAM: An Open Framework for Composable World-Action Models</span></summary><pre>@article{yu2026openwam,
   title = {OpenWAM: An Open Framework for Composable World-Action Models},
   author = {Heng Yu and David D. Yuan and Juze Zhang and Changan Chen and Yao Feng and Michelle Baldonado and Steve Cousins and Li Fei-Fei and Jiajun Wu and Ehsan Adeli},
   journal = {arXiv preprint arXiv:2610.07922},
@@ -76,18 +78,20 @@
               </td>
             </tr>
             <tr class="publication" id="mulligan">
-              <td class="paper-image" style="padding:16px;width:20%;vertical-align:middle">
+              <td class="paper-image">
                 <a href="https://mulligan.page/" tabindex="-1" aria-hidden="true"><img src="assets/mulligan.png" alt="Mulligan figure showing diverse initial states, concentrated failures, and targeted data collection" width="160" height="120" loading="lazy" class="contain"></a>
               </td>
-              <td class="paper-copy" style="padding:8px;width:80%;vertical-align:middle">
+              <td class="paper-copy">
                 <h3 class="papertitle"><a href="https://arxiv.org/abs/2610.05882">Mulligan: Performance-Guided Data Collection for Efficient On-Robot Learning</a></h3>
-                Lars Ankile, Perry Dong, Rohan Bhowmik, Aneesh Muppidi, <strong>David D. Yuan</strong>, Shuran Song, Chelsea Finn<br>
-                <em>In submission</em><br>
-                CoRL 2026 Workshop: <a href="https://workshop.oopsie-data.com/">Oops, I Erred</a><br>
-                <strong class="paper-award">Best Paper</strong><br>
-                <a href="https://mulligan.page/">project page</a> / <a href="https://arxiv.org/abs/2610.05882">paper</a> / <a href="https://github.com/ankile/mulligan">code</a>
-                <p>Directing human-supervised data collection toward failures and unexplored states to improve real-world manipulation more efficiently.</p>
-                <details><summary>BibTeX<span class="sr-only"> for Mulligan: Performance-Guided Data Collection for Efficient On-Robot Learning</span></summary><pre>@misc{mulligan2026,
+                <p class="paper-authors">Lars Ankile, Perry Dong, Rohan Bhowmik, Aneesh Muppidi, <strong>David D. Yuan</strong>, Shuran Song, Chelsea Finn</p>
+                <div class="paper-meta">
+                  <p class="paper-status"><em>In submission</em></p>
+                  <p class="paper-venue">CoRL 2026 Workshop: <a href="https://workshop.oopsie-data.com/">Oops, I Erred</a></p>
+                </div>
+                <p class="paper-honor"><strong class="paper-award">Best Paper</strong></p>
+                <p class="paper-description">Directing human-supervised data collection toward failures and unexplored states to improve real-world manipulation more efficiently.</p>
+                <p class="paper-links"><a href="https://mulligan.page/">project page</a> <a href="https://arxiv.org/abs/2610.05882">paper</a> <a href="https://github.com/ankile/mulligan">code</a></p>
+<details><summary>BibTeX<span class="sr-only"> for Mulligan: Performance-Guided Data Collection for Efficient On-Robot Learning</span></summary><pre>@misc{mulligan2026,
   title = {Mulligan: Performance-Guided Data Collection for Efficient On-Robot Learning},
   author = {Lars Ankile and Perry Dong and Rohan Bhowmik and Aneesh Muppidi and David D. Yuan and Shuran Song and Chelsea Finn},
   year = {2026},
@@ -96,20 +100,21 @@
   primaryClass = {cs.RO},
   url = {https://arxiv.org/abs/2610.05882}
 }</pre></details>
-
               </td>
             </tr>
             <tr class="publication" id="speedtuning">
-              <td class="paper-image" style="padding:16px;width:20%;vertical-align:middle">
+              <td class="paper-image">
                 <a href="https://daivdyuan.github.io/speed-tuning/" tabindex="-1" aria-hidden="true"><img src="assets/speedtuning.jpg" alt="Robot manipulation frame from the SpeedTuning paper figure" width="160" height="120" loading="lazy"></a>
               </td>
-              <td class="paper-copy" style="padding:8px;width:80%;vertical-align:middle">
+              <td class="paper-copy">
                 <h3 class="papertitle"><a href="https://arxiv.org/abs/2608.09138">SpeedTuning: Speeding Up Policy Execution with Lightweight Reinforcement Learning</a></h3>
-                <strong>David D. Yuan</strong>, Tony Z. Zhao, Kaylee Burns, Chelsea Finn<br>
-                <em>ICRA</em>, 2025<br>
-                <a href="https://daivdyuan.github.io/speed-tuning/">project page</a> / <a href="https://arxiv.org/abs/2608.09138">paper</a> / <a href="https://github.com/DaivdYuan/SpeedTuning">code</a>
-                <p>Learning when to move quickly and when to slow down, accelerating a learned manipulation policy without collecting new demonstrations.</p>
-                <details><summary>BibTeX<span class="sr-only"> for SpeedTuning: Speeding Up Policy Execution with Lightweight Reinforcement Learning</span></summary><pre>@inproceedings{yuan2025speedtuning,
+                <p class="paper-authors"><strong>David D. Yuan</strong>, Tony Z. Zhao, Kaylee Burns, Chelsea Finn</p>
+                <div class="paper-meta">
+                  <p class="paper-venue"><em>ICRA</em>, 2025</p>
+                </div>
+                <p class="paper-description">Learning when to move quickly and when to slow down, accelerating a learned manipulation policy without collecting new demonstrations.</p>
+                <p class="paper-links"><a href="https://daivdyuan.github.io/speed-tuning/">project page</a> <a href="https://arxiv.org/abs/2608.09138">paper</a> <a href="https://github.com/DaivdYuan/SpeedTuning">code</a></p>
+<details><summary>BibTeX<span class="sr-only"> for SpeedTuning: Speeding Up Policy Execution with Lightweight Reinforcement Learning</span></summary><pre>@inproceedings{yuan2025speedtuning,
   title = {SpeedTuning: Speeding Up Policy Execution with Lightweight Reinforcement Learning},
   author = {David D. Yuan and Tony Z. Zhao and Kaylee Burns and Chelsea Finn},
   booktitle = {2025 IEEE International Conference on Robotics and Automation (ICRA)},
@@ -117,20 +122,22 @@
   year = {2025},
   doi = {10.1109/ICRA55743.2025.11128753}
 }</pre></details>
-
               </td>
             </tr>
             <tr class="publication" id="robocrowd">
-              <td class="paper-image" style="padding:16px;width:20%;vertical-align:middle">
+              <td class="paper-image">
                 <a href="https://robocrowd.github.io/" tabindex="-1" aria-hidden="true"><img src="assets/robocrowd.jpg" alt="Visitors interacting with the RoboCrowd robot in a university café" width="160" height="120" loading="lazy"></a>
               </td>
-              <td class="paper-copy" style="padding:8px;width:80%;vertical-align:middle">
+              <td class="paper-copy">
                 <h3 class="papertitle"><a href="https://arxiv.org/abs/2411.01915">RoboCrowd: Scaling Robot Data Collection through Crowdsourcing</a></h3>
-                Suvir Mirchandani, <strong>David D. Yuan</strong>, Kaylee Burns, Md Sazzad Islam, Tony Z. Zhao, Chelsea Finn, Dorsa Sadigh<br>
-                <em>ICRA</em>, 2025 &nbsp; <strong class="paper-award">Best Paper Finalist</strong><br>
-                <a href="https://robocrowd.github.io/">project page</a> / <a href="https://arxiv.org/abs/2411.01915">paper</a>
-                <p>Making robot data collection a public, engaging activity through rewards, curiosity, and friendly competition.</p>
-                <details><summary>BibTeX<span class="sr-only"> for RoboCrowd: Scaling Robot Data Collection through Crowdsourcing</span></summary><pre>@inproceedings{mirchandani2025robocrowd,
+                <p class="paper-authors">Suvir Mirchandani, <strong>David D. Yuan</strong>, Kaylee Burns, Md Sazzad Islam, Tony Z. Zhao, Chelsea Finn, Dorsa Sadigh</p>
+                <div class="paper-meta">
+                  <p class="paper-venue"><em>ICRA</em>, 2025</p>
+                </div>
+                <p class="paper-honor"><strong class="paper-award">Best Paper Finalist</strong></p>
+                <p class="paper-description">Making robot data collection a public, engaging activity through rewards, curiosity, and friendly competition.</p>
+                <p class="paper-links"><a href="https://robocrowd.github.io/">project page</a> <a href="https://arxiv.org/abs/2411.01915">paper</a></p>
+<details><summary>BibTeX<span class="sr-only"> for RoboCrowd: Scaling Robot Data Collection through Crowdsourcing</span></summary><pre>@inproceedings{mirchandani2025robocrowd,
   title = {RoboCrowd: Scaling Robot Data Collection through Crowdsourcing},
   author = {Suvir Mirchandani and David D. Yuan and Kaylee Burns and Md Sazzad Islam and Tony Z. Zhao and Chelsea Finn and Dorsa Sadigh},
   booktitle = {2025 IEEE International Conference on Robotics and Automation (ICRA)},
@@ -138,27 +145,27 @@
   year = {2025},
   url = {https://arxiv.org/abs/2411.01915}
 }</pre></details>
-
               </td>
             </tr>
             <tr class="publication" id="breakout">
-              <td class="paper-image" style="padding:16px;width:20%;vertical-align:middle">
+              <td class="paper-image">
                 <a href="https://ezliu.github.io/breakoutgrader/" tabindex="-1" aria-hidden="true"><img src="assets/breakout.svg" alt="Illustration of a Breakout game with a paddle, ball, and colored bricks" width="160" height="120" loading="lazy"></a>
               </td>
-              <td class="paper-copy" style="padding:8px;width:80%;vertical-align:middle">
+              <td class="paper-copy">
                 <h3 class="papertitle"><a href="https://stanford.edu/~cpiech/bio/papers/breakoutGrading.pdf">A Fast and Accurate Machine Learning Autograder for the Breakout Assignment</a></h3>
-                Evan Zheran Liu, <strong>David Yuan</strong>, Ahmed Ahmed, Elyse Cornwall, Juliette Woodrow, Kaylee Burns, Allen Nie, Emma Brunskill, Chris Piech, Chelsea Finn<br>
-                <em>SIGCSE</em>, 2024<br>
-                <a href="https://ezliu.github.io/breakoutgrader/">project page</a> / <a href="https://stanford.edu/~cpiech/bio/papers/breakoutGrading.pdf">paper</a>
-                <p>A reinforcement learning agent plays student programs and surfaces bugs for instructors, reducing the work of grading interactive assignments.</p>
-                <details><summary>BibTeX<span class="sr-only"> for A Fast and Accurate Machine Learning Autograder for the Breakout Assignment</span></summary><pre>@inproceedings{liu2024breakout,
+                <p class="paper-authors">Evan Zheran Liu, <strong>David Yuan</strong>, Ahmed Ahmed, Elyse Cornwall, Juliette Woodrow, Kaylee Burns, Allen Nie, Emma Brunskill, Chris Piech, Chelsea Finn</p>
+                <div class="paper-meta">
+                  <p class="paper-venue"><em>SIGCSE</em>, 2024</p>
+                </div>
+                <p class="paper-description">A reinforcement learning agent plays student programs and surfaces bugs for instructors, reducing the work of grading interactive assignments.</p>
+                <p class="paper-links"><a href="https://ezliu.github.io/breakoutgrader/">project page</a> <a href="https://stanford.edu/~cpiech/bio/papers/breakoutGrading.pdf">paper</a></p>
+<details><summary>BibTeX<span class="sr-only"> for A Fast and Accurate Machine Learning Autograder for the Breakout Assignment</span></summary><pre>@inproceedings{liu2024breakout,
   title = {A Fast and Accurate Machine Learning Autograder for the Breakout Assignment},
   author = {Evan Zheran Liu and David Yuan and Ahmed Ahmed and Elyse Cornwall and Juliette Woodrow and Kaylee Burns and Allen Nie and Emma Brunskill and Chris Piech and Chelsea Finn},
   booktitle = {Proceedings of the 55th ACM Technical Symposium on Computer Science Education V. 1},
   year = {2024},
   doi = {10.1145/3626252.3630759}
 }</pre></details>
-
               </td>
             </tr>
             </tbody></table>
