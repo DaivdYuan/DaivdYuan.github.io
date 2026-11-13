@@ -30,3 +30,5 @@ The upstream README explicitly permits cloning the code for personal use.
 https://do-robots-need-world-models.github.io/
 https://workshop.oopsie-data.com/
 Award typography follows the compact red distinctions used in Jon Barron's academic template, with a darker red for readable contrast.
+
+2026-11-12 news and research-focus update: David confirmed that OpenWAM and Mulligan received their respective workshop prizes on November 12, 2026. The two news items now announce those awards. Bio, research introduction, and description metadata include humanoids and human–robot interaction at his request.
