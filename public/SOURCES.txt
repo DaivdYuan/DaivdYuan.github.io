@@ -10,7 +10,7 @@ https://robocrowd.github.io/
 https://arxiv.org/abs/2411.01915
 https://stanford.edu/~cpiech/bio/papers/breakoutGrading.pdf
 
-Profile photo: user-provided IMG_9245.HEIC, lightly tuned and cropped using the image-editing tool with instructions to preserve facial identity and retain the snake. The current tighter crop focuses on the face and snake. Original photo remains with the user; the previous mountain-lake portrait is retained as an unused asset.
+Profile photo: user-provided IMG_9245.HEIC, lightly tuned and cropped using the image-editing tool with instructions to preserve facial identity and retain the snake. The current framing is slightly wider than the previous close crop, allowing more space around the face and snake. Original photo remains with the user; previous portraits are retained as unused assets.
 OpenWAM thumbnail: a frame at 5 seconds from the project-page demonstration video, resized for the publication list.
 Mulligan thumbnail: Figure 1 from arXiv HTML, resized for the publication list.
 SpeedTuning thumbnail: original embedded experiment frame extracted from the project's teaser SVG.
