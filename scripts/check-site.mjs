@@ -33,6 +33,5 @@ for(const file of files.filter(f=>['.html','.css'].includes(extname(f)))){
 const html=await readFile(root+'/index.html','utf8');
 assert(!/<script|<iframe|playground|dev-login|dev-logout|Outside research|bgcolor=|class="highlight"/.test(html),'Production must stay static and academic-only.');
 assert(html.includes('id="news"'),'News must be retained.');
-assert(html.includes('assets/publications.bib'),'Citation download must be present.');
 const bytes=(await Promise.all(files.map(async file=>(await stat(file)).size))).reduce((a,b)=>a+b,0);
 console.log(`Verified ${refs} local asset/link references, unique anchors, self-hosted fonts, and academic-only content. ${files.length} files, ${(bytes/1024).toFixed(0)} KB total.`);

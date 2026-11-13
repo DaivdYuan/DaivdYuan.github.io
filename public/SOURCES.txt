@@ -32,3 +32,5 @@ https://workshop.oopsie-data.com/
 Award typography follows the compact red distinctions used in Jon Barron's academic template, with a darker red for readable contrast.
 
 2026-11-12 news and research-focus update: David confirmed that OpenWAM and Mulligan received their respective workshop prizes on November 12, 2026. The two news items now announce those awards. Bio, research introduction, and description metadata include humanoids and human–robot interaction at his request.
+
+2026-11-12 editorial revision: restored the October 6 OpenWAM and October 5 Mulligan release news alongside the November awards. The bio now describes the research questions using the existing publication summaries: learning from demonstrations, failure-guided data collection, reinforcement learning, and world–action models. Removed the separate research overview and global BibTeX download link at David's request.

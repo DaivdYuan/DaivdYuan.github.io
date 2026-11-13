@@ -51,4 +51,4 @@ a:focus-visible, summary:focus-visible { outline: 2px solid #1772d0; outline-off
 }
 
 
-.research-heading{display:flex;align-items:baseline;justify-content:space-between;gap:16px}.research-heading>a{font-size:12px;white-space:nowrap}.not-found{max-width:600px;margin:15vh auto;padding:24px;line-height:1.6}.not-found h1{font-weight:normal;font-size:28px}.not-found-code{color:#777}
+.not-found{max-width:600px;margin:15vh auto;padding:24px;line-height:1.6}.not-found h1{font-weight:normal;font-size:28px}.not-found-code{color:#777}

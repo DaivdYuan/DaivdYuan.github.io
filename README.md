@@ -10,6 +10,8 @@ All fonts and images are included locally. The homepage has no runtime JavaScrip
 
 Edit `public/index.html` for the bio, news, and publication entries. Update both the inline BibTeX and `public/assets/publications.bib` when adding a publication. Keep Jon Barron’s template credit and the font license. Original template files remain in `templates/jon-barron/`; the deployed stylesheet only changes font loading to local files.
 
+Keep News as a cumulative history in reverse chronological order: prepend new announcements and retain earlier release news unless David asks to remove an entry. The research overview belongs in the bio; the Research heading leads directly into publications. Citation details remain available per paper, without a global BibTeX download button.
+
 Run `npm ci` once, then `npm run dev` for the Cloudflare-compatible local preview on port 4318. Run `npm run check` to check local links, assets, anchors, fonts, and the academic-only boundary. `npm run build` prepares `dist/` without contacting external services.
 
 ## GitHub Pages
