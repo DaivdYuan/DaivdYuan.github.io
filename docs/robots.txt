@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://daivdyuan.github.io/sitemap.xml

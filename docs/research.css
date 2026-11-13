@@ -1,0 +1,54 @@
+/* Small additions to the unchanged Jon Barron stylesheet. */
+:root { color-scheme: light; scroll-padding-top: 20px; }
+body { background: #fff; color: #111; }
+td { line-height: 1.45; }
+.name { font-weight: normal; }
+.portrait-cell { text-align: center; }
+.portrait { display: block; height: auto; aspect-ratio: 1; max-width: 220px !important; margin: auto; }
+.profile-links { margin-bottom: 6px; }
+.section-copy { padding: 16px; }
+.section-copy > p:last-child { margin-bottom: 0; }
+.news { list-style: none; margin: 14px 0 0; padding: 0; }
+.news li { display: flex; gap: 16px; margin: 7px 0; }
+.news time { flex: 0 0 90px; color: #666; }
+.paper-image img { display: block; width: 160px; min-width: 160px; height: 120px; object-fit: cover; }
+.paper-image img.contain { object-fit: contain; background: white; }
+h3.papertitle { margin: 0; line-height: inherit; }
+.papertitle a { font-weight: inherit; }
+.paper-award { color: #b31b1b; font-weight: 700; }
+.paper-copy > p { margin: 12px 0; }
+.paper-copy > p.contribution { font-size: 12px; margin: 6px 0 0; }
+details { margin: 5px 0 0; }
+summary { cursor: pointer; color: #1772d0; width: fit-content; }
+summary:hover { color: #f09228; }
+pre { white-space: pre-wrap; overflow-wrap: anywhere; background: #f4f4f4; padding: 12px; font-size: 12px; line-height: 1.5; }
+footer { text-align: right; }
+footer p, footer a { font-size: 12px; color: #666; }
+footer a { color: #1772d0; }
+a:focus-visible, summary:focus-visible { outline: 2px solid #1772d0; outline-offset: 3px; }
+.skip { position: absolute; top: -80px; left: 16px; padding: 10px; background: white; }
+.skip:focus { top: 12px; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+@media (max-width: 600px) {
+  .intro, .intro tbody, .intro tr, .intro td { display: block; }
+  .intro td { box-sizing: border-box; width: 100% !important; max-width: 100% !important; padding: 16px !important; }
+  .intro td.portrait-cell { padding-top: 4px !important; padding-bottom: 24px !important; }
+  .portrait { max-width: 160px !important; }
+  .name { padding-top: 8px; }
+  .news li { gap: 10px; }
+  .news time { flex-basis: 84px; font-size: 13px; }
+  .publications, .publications tbody, .publication, .publication td { display: block; width: 100% !important; box-sizing: border-box; }
+  .publication { margin-bottom: 20px; }
+  .publication td.paper-image { padding: 16px 16px 8px !important; }
+  .publication td.paper-copy { padding: 8px 16px 16px !important; }
+  .paper-image img { width: 160px; }
+  footer { text-align: left; }
+}
+@media print {
+  .page { max-width: none !important; }
+  .skip, details, footer { display: none; }
+  .publication { break-inside: avoid; }
+}
+
+
+.research-heading{display:flex;align-items:baseline;justify-content:space-between;gap:16px}.research-heading>a{font-size:12px;white-space:nowrap}.not-found{max-width:600px;margin:15vh auto;padding:24px;line-height:1.6}.not-found h1{font-weight:normal;font-size:28px}.not-found-code{color:#777}

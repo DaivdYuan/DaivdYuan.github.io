@@ -1,0 +1,11 @@
+Source: https://github.com/jonbarron/jonbarron.github.io
+Website: https://jonbarron.info/
+Commit: 6cff4d52269b56ce0783ae5e652ba1975f68ce50
+Retrieved: 2026-10-16
+
+Unmodified source files are retained here for attribution and reproducibility.
+The upstream README explicitly permits cloning for personal use.
+public/research/index.html adapts the original table layout and publication rows.
+public/research/stylesheet.css is the unchanged upstream stylesheet.
+public/research/research.css adds responsive behavior and accessibility.
+No upstream personal assets or analytics are included in the deployed page.

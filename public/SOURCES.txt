@@ -1,0 +1,32 @@
+Publication metadata verified on 2026-10-16 against David D. Yuan's Google Scholar profile and primary publication/project pages.
+https://scholar.google.com/citations?user=4z-LkLQAAAAJ&hl=en&sortby=pubdate
+https://openwam.stanford.edu/
+https://arxiv.org/abs/2610.07922
+https://mulligan.page/
+https://arxiv.org/abs/2610.05882
+https://daivdyuan.github.io/speed-tuning/
+https://arxiv.org/abs/2608.09138
+https://robocrowd.github.io/
+https://arxiv.org/abs/2411.01915
+https://stanford.edu/~cpiech/bio/papers/breakoutGrading.pdf
+
+Profile photo: user's Google Scholar profile photo, retained without creative alteration.
+OpenWAM thumbnail: a frame at 5 seconds from the project-page demonstration video, resized for the publication list.
+Mulligan thumbnail: Figure 1 from arXiv HTML, resized for the publication list.
+SpeedTuning thumbnail: original embedded experiment frame extracted from the project's teaser SVG.
+RoboCrowd thumbnail: project-page cafe photograph, resized and JPEG encoded.
+Breakout thumbnail: original illustrative SVG, not an experiment screenshot.
+Affiliation: public Scholar profile. IntBot cofounder: Stanford IRIS people page.
+https://irislab.stanford.edu/people.html
+
+Academic website template: Jon Barron, https://github.com/jonbarron/jonbarron.github.io
+Upstream commit: 6cff4d52269b56ce0783ae5e652ba1975f68ce50
+The HTML and stylesheet retain the original layout and publication rows; fonts are now self-hosted.
+The upstream README explicitly permits cloning the code for personal use.
+
+2026-11-12 hosting preparation: font files from the existing template’s Google Fonts URLs are included locally; their Lato SIL Open Font License is in assets/fonts/OFL.txt. No new publication or affiliation claims were added.
+
+2026-11-12 awards update: David D. Yuan supplied OpenWAM's Best Position Paper, Mulligan's Best Paper, and RoboCrowd's ICRA 2025 Best Paper Finalist distinctions, and specified that OpenWAM and Mulligan are in submission. Workshop titles checked against the official event pages:
+https://do-robots-need-world-models.github.io/
+https://workshop.oopsie-data.com/
+Award typography follows the compact red distinctions used in Jon Barron's academic template, with a darker red for readable contrast.
